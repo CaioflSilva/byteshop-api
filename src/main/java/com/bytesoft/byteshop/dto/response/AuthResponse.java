@@ -1,4 +1,4 @@
-package com.bytesoft.byteshop.dto;
+package com.bytesoft.byteshop.dto.response;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

@@ -1,8 +1,8 @@
 package com.bytesoft.byteshop.service;
 
-import com.bytesoft.byteshop.dto.AuthResponse;
-import com.bytesoft.byteshop.dto.LoginRequest;
-import com.bytesoft.byteshop.dto.RegisterRequest;
+import com.bytesoft.byteshop.dto.request.LoginRequest;
+import com.bytesoft.byteshop.dto.request.RegisterRequest;
+import com.bytesoft.byteshop.dto.response.AuthResponse;
 import com.bytesoft.byteshop.exception.RegraDeNegocioException;
 import com.bytesoft.byteshop.model.Role;
 import com.bytesoft.byteshop.model.Usuario;

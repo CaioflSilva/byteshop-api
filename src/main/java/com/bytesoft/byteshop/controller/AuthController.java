@@ -1,8 +1,8 @@
 package com.bytesoft.byteshop.controller;
 
-import com.bytesoft.byteshop.dto.AuthResponse;
-import com.bytesoft.byteshop.dto.LoginRequest;
-import com.bytesoft.byteshop.dto.RegisterRequest;
+import com.bytesoft.byteshop.dto.request.LoginRequest;
+import com.bytesoft.byteshop.dto.request.RegisterRequest;
+import com.bytesoft.byteshop.dto.response.AuthResponse;
 import com.bytesoft.byteshop.service.AuthService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;
