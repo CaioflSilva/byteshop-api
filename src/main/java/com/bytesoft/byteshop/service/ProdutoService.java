@@ -77,7 +77,7 @@ public class ProdutoService {
         produto.setAtualizadoEm(LocalDateTime.now());
     }
 
-    private Produto buscarEntidade(Long id) {
+    public Produto buscarEntidade(Long id) {
         return repository.findById(id)
                 .orElseThrow(() -> new RecursoNaoEncontradoException("Produto não encontrado: " + id));
     }
